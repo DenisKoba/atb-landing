@@ -9,6 +9,7 @@ body {
     transform: rotate(284deg); }
   100% {
     transform: rotate(298deg); } }
+
 @keyframes bagSmall {
   0% {
     transform: rotate(0deg); }
@@ -16,6 +17,7 @@ body {
     transform: rotate(10deg); }
   100% {
     transform: rotate(0deg); } }
+
 .section {
   width: 100%;
   display: block; }
@@ -29,12 +31,12 @@ body {
   display: block; }
 
 .lifehack-text-style {
-  font-family: Lifehack, sans-serif;
+  font-family: Lobster, sans-serif;
   transform: rotate(-8deg);
   margin: 0; }
 
 .atb-heading {
-  font-family: Lifehack, sans-serif;
+  font-family: Lobster, sans-serif;
   font-weight: bold;
   font-size: 49px;
   color: #fff;
@@ -53,6 +55,7 @@ body {
   display: block;
   background-color: #2068b1;
   margin: 0 0 50px 0; }
+
 .atb-header__wrapper:before {
   content: "";
   background-image: url(../src/img/atb-bag-blur.png);
@@ -64,9 +67,11 @@ body {
   display: block;
   background-size: cover;
   animation: bagAnimation 5s infinite; }
+
 .atb-header__wrapper_logo {
   display: block;
   margin: auto; }
+
 .atb-header__wrapper_main-image {
   margin: 50px auto;
   display: block; }
@@ -155,7 +160,7 @@ body {
           margin: 0 0 0 -100px;
           transform: rotate(56deg); }
       .atb-section-three__wrapper_subsection .heading-section-three {
-        font-family: Lifehack, sans-serif;
+        font-family: Lobster, sans-serif;
         transform: rotate(-8deg);
         margin: 0;
         color: #4a6fab;
@@ -179,7 +184,7 @@ body {
         float: left;
         margin: 0 0 0 50px; }
       .atb-section-three__wrapper_subsection .subheading-section-three {
-        font-family: Lifehack, sans-serif;
+        font-family: Lobster, sans-serif;
         transform: rotate(-8deg);
         margin: 0;
         color: #4a6fab;
@@ -232,7 +237,7 @@ body {
       display: inline-block;
       float: left; }
       .atb-section-five__wrapper_header .mechanics-big-text {
-        font-family: Lifehack, sans-serif;
+        font-family: Lobster, sans-serif;
         transform: rotate(-8deg);
         margin: 0;
         color: #4a6fab;
@@ -277,7 +282,7 @@ body {
       display: inline-block;
       float: left; }
       .atb-section-six__wrapper_img .mechanics-big-text {
-        font-family: Lifehack, sans-serif;
+        font-family: Lobster, sans-serif;
         transform: rotate(-8deg);
         margin: 0;
         color: #4a6fab;
@@ -316,7 +321,7 @@ body {
       display: inline-block;
       float: left; }
       .atb-section-six__wrapper_img .mechanics-big-text {
-        font-family: Lifehack, sans-serif;
+        font-family: Lobster, sans-serif;
         transform: rotate(-8deg);
         margin: 0;
         color: #4a6fab;
@@ -404,7 +409,7 @@ body {
           font-weight: 400;
           position: absolute;
           width: 147px;
-          font-family: Lifehack, sans-serif;
+          font-family: Lobster, sans-serif;
           line-height: 30px;
           text-align: center;
           color: #db0100;
@@ -476,7 +481,7 @@ body {
     font-weight: 400;
     position: absolute;
     width: 365px;
-    font-family: Lifehack, sans-serif;
+    font-family: Lobster, sans-serif;
     line-height: 30px;
     text-align: center;
     color: #db0100;
@@ -651,6 +656,7 @@ body {
     .atb-footer__wrapper .send-button:hover {
       background: #0379c3;
       transition: .4s; }
+
 .atb-footer .atb-copyright {
   display: block;
   margin: auto;
@@ -681,4 +687,521 @@ body {
   transform: rotate(0deg);
   transition: 2s ease; }
 
-/*# sourceMappingURL=styles.css.map */
+/******************************************************  Mobile Devices ************************************************/
+@media screen and (max-width: 1200px) and (min-width: 600px) {
+  .journey-absolute {
+    position: relative; }
+  .wrapper {
+    width: 100%;
+    margin: auto;
+    display: block; }
+  .lifehack-text-style {
+    font-family: Lobster, sans-serif;
+    transform: rotate(-8deg);
+    margin: 0; }
+  .atb-heading {
+    font-family: Lobster, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: #fff;
+    text-shadow: 4px 3px 0px black;
+    transform: rotate(-8deg);
+    margin: 0 0 40px 0; }
+  .atb-description {
+    font-family: Proxima Nova, sans-serif;
+    font-size: 30px;
+    font-weight: 400; }
+  .atb-header .line {
+    height: 15px;
+    width: 100%;
+    display: block;
+    background-color: #2068b1;
+    margin: 0 0 50px 0; }
+  .atb-header__wrapper:before {
+    display: none; }
+  .atb-header__wrapper_logo {
+    display: block;
+    margin: auto; }
+  .atb-header__wrapper_main-image {
+    width: 90% !important;
+    margin: 50px auto;
+    display: block; }
+  .atb-second-section {
+    background-image: url(../src/img/blue-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden; }
+    .atb-second-section__wrapper {
+      padding: 50px 0;
+      overflow: hidden; }
+      .atb-second-section__wrapper_image {
+        display: none; }
+      .atb-second-section__wrapper_description {
+        width: 90%;
+        display: block;
+        vertical-align: top;
+        float: none;
+        margin: auto; }
+        .atb-second-section__wrapper_description .situation {
+          width: 100%;
+          margin: 0 auto; }
+          .atb-second-section__wrapper_description .situation:before {
+            display: none; }
+        .atb-second-section__wrapper_description .section-two-text {
+          width: 100%;
+          padding: 0 0 50px 0; }
+          .atb-second-section__wrapper_description .section-two-text .atb-heading {
+            font-family: Lobster, sans-serif;
+            font-weight: bold;
+            color: #fff;
+            text-shadow: 4px 3px 0px black;
+            transform: rotate(0deg);
+            margin: auto; }
+          .atb-second-section__wrapper_description .section-two-text_description {
+            color: #fff; }
+  .atb-section-three {
+    overflow: hidden; }
+    .atb-section-three__wrapper {
+      width: 100%;
+      padding: 50px 0; }
+      .atb-section-three__wrapper .third-section-bag-wrapper {
+        display: none; }
+      .atb-section-three__wrapper_subsection .subheading-wrapper {
+        margin: 0 50px 0 0 !important; }
+        .atb-section-three__wrapper_subsection .subheading-wrapper:before {
+          display: none; }
+      .atb-section-three__wrapper_subsection .heading-section-three {
+        font-family: Lobster, sans-serif;
+        transform: rotate(-8deg);
+        margin: 0;
+        color: #4a6fab;
+        font-size: 80px;
+        width: 50%;
+        line-height: 80px;
+        padding: 50px 0;
+        font-weight: 200;
+        text-align: center; }
+        .atb-section-three__wrapper_subsection .heading-section-three:before {
+          display: none; }
+      .atb-section-three__wrapper_subsection .image-section-three {
+        display: inline-block;
+        float: left;
+        margin: 0 0 0 50px; }
+      .atb-section-three__wrapper_subsection .subheading-section-three {
+        font-family: Lobster, sans-serif;
+        transform: rotate(-8deg);
+        margin: 0;
+        color: #4a6fab;
+        font-size: 45px;
+        width: 250px;
+        line-height: 45px;
+        padding: 50px 0;
+        font-weight: 200;
+        text-align: center; }
+  .atb-section-four__wrapper .section-four-text {
+    width: 90%;
+    float: none;
+    display: block;
+    margin: 0 auto; }
+    .atb-section-four__wrapper .section-four-text .atb-heading {
+      font-family: Lobster, sans-serif;
+      font-weight: bold;
+      font-size: 35px;
+      color: #fff;
+      text-shadow: 4px 3px 0px black;
+      transform: rotate(0deg);
+      margin: 0 0 40px 0; }
+    .atb-section-four__wrapper .section-four-text__description {
+      color: #fff;
+      padding: 0 0 50px 0; }
+  .atb-section-five {
+    overflow: hidden; }
+    .atb-section-five:before {
+      display: none; }
+    .atb-section-five__wrapper {
+      overflow: hidden;
+      padding: 50px 0 124px 0;
+      width: 100%; }
+      .atb-section-five__wrapper:before {
+        display: none; }
+      .atb-section-five__wrapper_header {
+        width: 100%;
+        display: block;
+        float: none;
+        margin: 0 auto; }
+        .atb-section-five__wrapper_header .mechanics-big-text {
+          font-family: Lobster, sans-serif;
+          transform: rotate(-8deg);
+          margin: 0 auto;
+          color: #4a6fab;
+          font-size: 80px;
+          width: 90%;
+          line-height: 80px;
+          padding: 50px 0;
+          font-weight: 200;
+          text-align: center; }
+      .atb-section-five__wrapper_descr {
+        width: 100%;
+        display: block;
+        float: none; }
+        .atb-section-five__wrapper_descr .mechanics-descr-heading {
+          font-size: 24px;
+          font-weight: bold;
+          padding: 50px 0 30px 0;
+          margin: auto;
+          text-align: center;
+          width: 90%; }
+        .atb-section-five__wrapper_descr .mechanics-descr-text {
+          font-size: 18px;
+          font-weight: 200;
+          padding: 0 0 40px 0;
+          width: 90%;
+          display: block;
+          margin: auto;
+          text-align: center; }
+          .atb-section-five__wrapper_descr .mechanics-descr-text:before {
+            display: none; }
+  .atb-section-six {
+    overflow: hidden;
+    background-image: url(../src/img/blue-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .atb-section-six__wrapper {
+      overflow: hidden;
+      padding: 50px 0 50px 0; }
+      .atb-section-six__wrapper_img {
+        width: 100%;
+        display: block;
+        float: none;
+        margin: auto; }
+        .atb-section-six__wrapper_img .involvement-img {
+          width: 100% !important; }
+      .atb-section-six__wrapper_descr {
+        width: 90%;
+        display: block;
+        float: none;
+        padding: 0 0 0 50px; }
+        .atb-section-six__wrapper_descr .mechanics-descr-heading {
+          font-size: 35px;
+          font-weight: bold;
+          padding: 10px 90px 30px 0;
+          color: #fff; }
+        .atb-section-six__wrapper_descr .mechanics-descr-text {
+          font-size: 30px;
+          font-weight: 200;
+          padding: 0 0 40px 0;
+          color: #fff; }
+  .atb-section-seven {
+    height: auto;
+    overflow: hidden; }
+    .atb-section-seven__wrapper {
+      overflow: hidden;
+      padding: 50px 0 50px 0;
+      height: 1000px; }
+      .atb-section-seven__wrapper_journey-image {
+        display: block;
+        width: 100%;
+        position: relative;
+        height: 500px; }
+        .atb-section-seven__wrapper_journey-image .image-journey {
+          width: 100% !important;
+          height: auto;
+          display: block;
+          position: relative;
+          left: 0;
+          top: 0; }
+      .atb-section-seven__wrapper_descr {
+        width: 40%;
+        display: block;
+        float: none;
+        position: relative;
+        height: 181px;
+        margin: auto;
+        top: 749px; }
+        .atb-section-seven__wrapper_descr .atb-reward {
+          background-image: url(../src/img/atb-ellipse.png);
+          width: 200px;
+          height: 200px;
+          position: absolute;
+          display: block;
+          background-size: cover;
+          z-index: 2;
+          top: -137px;
+          left: -3px; }
+          .atb-section-seven__wrapper_descr .atb-reward .reward-text {
+            font-size: 13px;
+            font-family: Proxima Nova, sans-serif;
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: 800;
+            width: 150px;
+            margin: 0 auto;
+            display: block;
+            padding: 77px 0 0 0; }
+            .atb-section-seven__wrapper_descr .atb-reward .reward-text:before {
+              content: '10';
+              font-size: 29px;
+              position: absolute;
+              top: 47px;
+              left: 82px; }
+        .atb-section-seven__wrapper_descr .atb-prize {
+          background-image: url(../src/img/atb-prize.png);
+          width: 300px;
+          height: 300px;
+          position: absolute;
+          display: block;
+          background-size: cover;
+          z-index: 1;
+          left: 94px;
+          top: -100px; }
+          .atb-section-seven__wrapper_descr .atb-prize:after {
+            content: 'Призовой фонд';
+            font-size: 28px;
+            font-weight: 400;
+            position: absolute;
+            width: 147px;
+            font-family: Lobster, sans-serif;
+            line-height: 30px;
+            text-align: center;
+            color: #db0100;
+            transform: rotate(-7deg);
+            left: -100px;
+            margin: 0; }
+          .atb-section-seven__wrapper_descr .atb-prize .prize-text {
+            font-size: 21px;
+            font-family: Proxima Nova, sans-serif;
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: 800;
+            width: 150px;
+            margin: 0 auto;
+            display: block;
+            padding: 170px 0 0 0; }
+  .atb-section-eight {
+    background-image: url(../src/img/blue-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .atb-section-eight__wrapper {
+      width: 100%;
+      margin: auto;
+      display: block; }
+      .atb-section-eight__wrapper_block-with-phone {
+        display: inline-block;
+        float: left;
+        position: relative;
+        width: 40%;
+        height: 500px; }
+        .atb-section-eight__wrapper_block-with-phone .atb-phone {
+          position: absolute; }
+          .atb-section-eight__wrapper_block-with-phone .atb-phone .atb-phone-img {
+            position: absolute;
+            top: -83px;
+            height: 726px; }
+      .atb-section-eight__wrapper_section-with-comments {
+        width: 60%;
+        float: left; }
+        .atb-section-eight__wrapper_section-with-comments .atb-comments-text-heading {
+          font-size: 24px;
+          font-weight: 700;
+          padding: 20px 90px 0 0;
+          color: #fff;
+          margin: 0; }
+        .atb-section-eight__wrapper_section-with-comments .atb-comments-text-descr {
+          font-family: Proxima Nova, sans-serif;
+          font-size: 30px;
+          font-weight: 200;
+          padding: 0 0 40px 0;
+          color: #fff;
+          margin: 0; }
+        .atb-section-eight__wrapper_section-with-comments .atb-comments-image {
+          display: none; }
+        .atb-section-eight__wrapper_section-with-comments .atb-comments-text-small {
+          font-family: Proxima Nova, sans-serif;
+          font-size: 26px;
+          font-weight: 200;
+          padding: 20px 0 40px 0;
+          color: #fff;
+          margin: 0; }
+  .atb-section-nine__wrapper {
+    margin: 50px auto;
+    height: 100%; }
+    .atb-section-nine__wrapper:before {
+      display: none; }
+    .atb-section-nine__wrapper .atb-media {
+      display: block;
+      margin: 0 auto; }
+  .atb-section-ten {
+    background-image: url(../src/img/blue-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .atb-section-ten__wrapper {
+      width: 100%;
+      margin: auto;
+      display: block;
+      height: 1000px; }
+      .atb-section-ten__wrapper .atb-facebook {
+        background-image: url(../src/img/atb-fb.png);
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        display: block;
+        background-size: cover;
+        z-index: 2;
+        top: 770px;
+        left: 0px; }
+        .atb-section-ten__wrapper .atb-facebook .facebook-text {
+          font-size: 20px;
+          font-family: Proxima Nova, sans-serif;
+          text-transform: uppercase;
+          text-align: center;
+          font-weight: 300;
+          width: 250px;
+          margin: 0 auto;
+          display: block;
+          padding: 113px 0 0 0; }
+      .atb-section-ten__wrapper .atb-mentions {
+        background-image: url(../src/img/atb-ellipse.png);
+        width: 220px;
+        height: 220px;
+        position: absolute;
+        display: block;
+        background-size: cover;
+        z-index: 1;
+        left: 207px;
+        top: 603px; }
+        .atb-section-ten__wrapper .atb-mentions .mentions-text {
+          font-size: 18px;
+          font-family: Proxima Nova, sans-serif;
+          text-transform: uppercase;
+          text-align: center;
+          font-weight: 200;
+          width: 150px;
+          margin: 0 auto;
+          display: block;
+          padding: 34px 0 0 0; }
+        .atb-section-ten__wrapper .atb-mentions .mentions-text-small {
+          font-size: 12px;
+          font-family: Proxima Nova, sans-serif;
+          text-transform: uppercase;
+          text-align: center;
+          font-weight: 200;
+          margin: 0 auto;
+          display: block;
+          padding: 2px 0 0 0; }
+      .atb-section-ten__wrapper .atb-vk {
+        background-image: url(../src/img/atb-fb.png);
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        display: block;
+        background-size: cover;
+        z-index: 2;
+        top: 725px;
+        left: 355px; }
+        .atb-section-ten__wrapper .atb-vk .vk-text {
+          font-size: 20px;
+          font-family: Proxima Nova, sans-serif;
+          text-transform: uppercase;
+          text-align: center;
+          font-weight: 300;
+          width: 250px;
+          margin: 0 auto;
+          display: block;
+          padding: 113px 0 0 0; }
+      .atb-section-ten__wrapper .atb-uploads {
+        background-image: url(../src/img/atb-ellipse.png);
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        display: block;
+        background-size: cover;
+        z-index: 1;
+        left: 469px;
+        top: 453px; }
+        .atb-section-ten__wrapper .atb-uploads .uploads-text {
+          font-size: 20px;
+          font-family: Proxima Nova, sans-serif;
+          text-transform: uppercase;
+          text-align: center;
+          font-weight: 300;
+          width: 215px;
+          line-height: 18px;
+          margin: 0 auto;
+          display: block;
+          padding: 70px 0 0 0; }
+      .atb-section-ten__wrapper_block-with-phone {
+        display: inline-block;
+        float: left;
+        position: relative;
+        width: 40%;
+        height: 500px; }
+        .atb-section-ten__wrapper_block-with-phone .atb-phone {
+          position: absolute; }
+          .atb-section-ten__wrapper_block-with-phone .atb-phone .atb-phone-img {
+            position: absolute;
+            top: -83px;
+            height: 726px; }
+      .atb-section-ten__wrapper_section-with-comments {
+        width: 50%;
+        padding: 0 0 0 40px;
+        float: left; }
+        .atb-section-ten__wrapper_section-with-comments .atb-final-results-text-heading {
+          font-size: 35px;
+          font-weight: 700;
+          padding: 50px 90px 0 0;
+          color: #fff;
+          margin: 0; }
+        .atb-section-ten__wrapper_section-with-comments .atb-final-results-text-descr {
+          font-family: Proxima Nova, sans-serif;
+          font-size: 25px;
+          font-weight: 200;
+          padding: 0 0 40px 0;
+          color: #fff;
+          margin: 0;
+          width: 90%; }
+  .atb-footer__wrapper {
+    padding: 100px 0 30px 0; }
+    .atb-footer__wrapper_love-emoji {
+      width: 90px;
+      height: 90px;
+      background-image: url(../src/img/atb-emojy-love.png);
+      background-size: cover;
+      display: block;
+      margin: auto;
+      transform: rotate(-14deg); }
+    .atb-footer__wrapper_descr {
+      display: block;
+      margin: auto;
+      text-align: center;
+      font-size: 20px;
+      font-family: Proxima Nova, sans-serif;
+      padding: 40px 0 40px 0;
+      line-height: 24px; }
+      .atb-footer__wrapper_descr .atb-underline {
+        text-decoration: underline; }
+    .atb-footer__wrapper .send-button {
+      padding: 40px 196px;
+      display: block;
+      margin: auto;
+      border: none;
+      background: #035a9f;
+      color: #fff;
+      font-size: 36px;
+      font-family: Arial Black, sans-serif;
+      box-shadow: 0px 8px 14px 0px #b1b1b1;
+      cursor: pointer;
+      outline: none;
+      transition: .4s; }
+      .atb-footer__wrapper .send-button:hover {
+        background: #0379c3;
+        transition: .4s; }
+  .atb-footer .atb-copyright {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
+    font-family: Proxima Nova, sans-serif;
+    padding: 20px 0 20px 0;
+    line-height: 24px;
+    color: #fff;
+    background-color: #c4c4c4; } }
