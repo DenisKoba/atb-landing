@@ -33,13 +33,13 @@ body{
 }
 
 .lifehack-text-style{
-  font-family: Lifehack, sans-serif;
+  font-family: Lobster, sans-serif;
   transform: rotate(-8deg);
   margin: 0;
 }
 
 .atb-heading{
-  font-family: Lifehack, sans-serif;
+  font-family: Lobster, sans-serif;
   font-weight: bold;
   font-size: 49px;
   color: #fff;
@@ -204,7 +204,7 @@ body{
 
 
       .heading-section-three{
-        font-family: Lifehack, sans-serif;
+        font-family: Lobster, sans-serif;
         transform: rotate(-8deg);
         margin: 0;
         color: #4a6fab;
@@ -233,7 +233,7 @@ body{
       }
 
       .subheading-section-three{
-        font-family: Lifehack, sans-serif;
+        font-family: Lobster, sans-serif;
         transform: rotate(-8deg);
         margin: 0;
         color: #4a6fab;
@@ -305,7 +305,7 @@ body{
       float: left;
 
       .mechanics-big-text {
-        font-family: Lifehack, sans-serif;
+        font-family: Lobster, sans-serif;
         transform: rotate(-8deg);
         margin: 0;
         color: #4a6fab;
@@ -368,7 +368,7 @@ body{
 
 
       .mechanics-big-text {
-        font-family: Lifehack, sans-serif;
+        font-family: Lobster, sans-serif;
         transform: rotate(-8deg);
         margin: 0;
         color: #4a6fab;
@@ -424,7 +424,7 @@ body{
 
 
       .mechanics-big-text {
-        font-family: Lifehack, sans-serif;
+        font-family: Lobster, sans-serif;
         transform: rotate(-8deg);
         margin: 0;
         color: #4a6fab;
@@ -537,7 +537,7 @@ body{
           font-weight: 400;
           position: absolute;
           width: 147px;
-          font-family: Lifehack, sans-serif;
+          font-family: Lobster, sans-serif;
           line-height: 30px;
           text-align: center;
           color: #db0100;
@@ -640,7 +640,7 @@ body{
       font-weight: 400;
       position: absolute;
       width: 365px;
-      font-family: Lifehack, sans-serif;
+      font-family: Lobster, sans-serif;
       line-height: 30px;
       text-align: center;
       color: #db0100;
@@ -904,3 +904,726 @@ body{
   transform: rotate(0deg);
   transition: 2s ease;
 }
+
+
+/******************************************************  Mobile Devices ************************************************/
+
+@media screen and (max-width: 1200px) and (min-width: 600px) {
+
+  .journey-absolute {
+    position: relative;
+  }
+
+  .wrapper {
+    width: 100%;
+    margin: auto;
+    display: block;
+  }
+
+  .lifehack-text-style {
+    font-family: Lobster, sans-serif;
+    transform: rotate(-8deg);
+    margin: 0;
+  }
+
+  .atb-heading {
+    font-family: Lobster, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: #fff;
+    text-shadow: 4px 3px 0px rgba(0, 0, 0, 1);
+    transform: rotate(-8deg);
+    margin: 0 0 40px 0;
+  }
+
+  .atb-description {
+    font-family: Proxima Nova, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  .atb-header {
+
+    .line {
+      height: 15px;
+      width: 100%;
+      display: block;
+      background-color: #2068b1;
+      margin: 0 0 50px 0;
+    }
+
+    &__wrapper {
+
+      &:before {
+        display: none;
+      }
+
+      &_logo {
+        display: block;
+        margin: auto;
+      }
+
+      &_main-image {
+        width: 90% !important;
+        margin: 50px auto;
+        display: block;
+      }
+    }
+  }
+
+  .atb-second-section {
+    background-image: url(../src/img/blue-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    &__wrapper {
+      padding: 50px 0;
+      overflow: hidden;
+
+      &_image {
+        display: none;
+      }
+
+        &_description {
+          width: 90%;
+          display: block;
+          vertical-align: top;
+          float: none;
+          margin: auto;
+
+          .situation {
+            width: 100%;
+            margin: 0 auto;
+            &:before{
+              display: none;
+            }
+          }
+
+          .section-two-text {
+            width: 100%;
+            padding: 0 0 50px 0;
+
+            .atb-heading{
+              font-family: Lobster, sans-serif;
+              font-weight: bold;
+              color: #fff;
+              text-shadow: 4px 3px 0px black;
+              transform: rotate(0deg);
+              margin: auto;
+            }
+
+            &_description {
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+
+    .atb-section-three {
+      overflow: hidden;
+
+      &__wrapper {
+        width: 100%;
+        padding: 50px 0;
+
+        .third-section-bag-wrapper {
+          display: none;
+        }
+
+        &_subsection {
+
+          .subheading-wrapper {
+            margin: 0 50px 0 0 !important;
+            &:before {
+              display: none;
+            }
+          }
+
+          .heading-section-three {
+            font-family: Lobster, sans-serif;
+            transform: rotate(-8deg);
+            margin: 0;
+            color: #4a6fab;
+            font-size: 80px;
+            width: 50%;
+            line-height: 80px;
+            padding: 50px 0;
+            font-weight: 200;
+            text-align: center;
+            &:before {
+              display: none;
+            }
+          }
+
+          .image-section-three {
+            display: inline-block;
+            float: left;
+            margin: 0 0 0 50px;
+          }
+
+          .subheading-section-three {
+            font-family: Lobster, sans-serif;
+            transform: rotate(-8deg);
+            margin: 0;
+            color: #4a6fab;
+            font-size: 45px;
+            width: 250px;
+            line-height: 45px;
+            padding: 50px 0;
+            font-weight: 200;
+            text-align: center;
+          }
+        }
+      }
+    }
+
+    .atb-section-four {
+
+      &__wrapper {
+
+        .section-four-text {
+          width: 90%;
+          float: none;
+          display: block;
+          margin: 0 auto;
+
+          .atb-heading{
+            font-family: Lobster, sans-serif;
+            font-weight: bold;
+            font-size: 35px;
+            color: #fff;
+            text-shadow: 4px 3px 0px black;
+            transform: rotate(0deg);
+            margin: 0 0 40px 0;
+          }
+
+          &__description {
+            color: #fff;
+            padding: 0 0 50px 0;
+          }
+        }
+      }
+    }
+
+    .atb-section-five {
+      overflow: hidden;
+      &:before {
+     display: none;
+      }
+
+      &__wrapper {
+        overflow: hidden;
+        padding: 50px 0 124px 0;
+        width:100%;
+
+        &:before {
+          display: none;
+        }
+
+        &_header {
+          width: 100%;
+          display: block;
+          float: none;
+          margin: 0 auto;
+
+          .mechanics-big-text {
+            font-family: Lobster, sans-serif;
+            transform: rotate(-8deg);
+            margin: 0 auto;
+            color: #4a6fab;
+            font-size: 80px;
+            width: 90%;
+            line-height: 80px;
+            padding: 50px 0;
+            font-weight: 200;
+            text-align: center;
+          }
+        }
+
+        &_descr {
+          width: 100%;
+          display: block;
+          float: none;
+
+          .mechanics-descr-heading {
+            font-size: 24px;
+            font-weight: bold;
+            padding: 50px 0 30px 0;
+            margin: auto;
+            text-align: center;
+            width: 90%;
+          }
+
+          .mechanics-descr-text {
+            font-size: 18px;
+            font-weight: 200;
+            padding: 0 0 40px 0;
+            width: 90%;
+            display: block;
+            margin: auto;
+            text-align: center;
+            &:before {
+             display: none;
+            }
+          }
+        }
+      }
+    }
+
+  .atb-section-six {
+    overflow: hidden;
+    background-image: url(../src/img/blue-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    &__wrapper {
+      overflow: hidden;
+      padding: 50px 0 50px 0;
+
+      &_img {
+        width: 100%;
+        display: block;
+        float: none;
+        margin: auto;
+
+        .involvement-img{
+          width: 100% !important;
+        }
+
+      }
+
+      &_descr {
+        width: 90%;
+        display: block;
+        float: none;
+        padding: 0 0 0 50px;
+
+        .mechanics-descr-heading {
+          font-size: 35px;
+          font-weight: bold;
+          padding: 10px 90px 30px 0;
+          color: #fff;
+        }
+
+        .mechanics-descr-text {
+          font-size: 30px;
+          font-weight: 200;
+          padding: 0 0 40px 0;
+          color: #fff;
+        }
+      }
+    }
+  }
+    .atb-section-seven {
+      height: auto;
+      overflow: hidden;
+
+      &__wrapper {
+        overflow: hidden;
+        padding: 50px 0 50px 0;
+        height: 1000px;
+
+        &_journey-image {
+          display: block;
+          width: 100%;
+          position: relative;
+          height: 500px;
+
+          .image-journey {
+            width: 100% !important;
+            height: auto;
+            display: block;
+            position: relative;
+            left: 0;
+            top: 0;
+          }
+
+        }
+
+        &_descr {
+          width: 40%;
+          display: block;
+          float: none;
+          position: relative;
+          height: 181px;
+          margin: auto;
+          top: 749px;
+
+          .atb-reward {
+            background-image: url(../src/img/atb-ellipse.png);
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            display: block;
+            background-size: cover;
+            z-index: 2;
+            top: -137px;
+            left: -3px;
+
+            .reward-text {
+              font-size: 13px;
+              font-family: Proxima Nova, sans-serif;
+              text-transform: uppercase;
+              text-align: center;
+              font-weight: 800;
+              width: 150px;
+              margin: 0 auto;
+              display: block;
+              padding: 77px 0 0 0;
+              &:before {
+                content: '10';
+                font-size: 29px;
+                position: absolute;
+                top: 47px;
+                left: 82px;
+              }
+            }
+          }
+
+          .atb-prize {
+            background-image: url(../src/img/atb-prize.png);
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            display: block;
+            background-size: cover;
+            z-index: 1;
+            left: 94px;
+            top: -100px;
+            &:after {
+              content: 'Призовой фонд';
+              font-size: 28px;
+              font-weight: 400;
+              position: absolute;
+              width: 147px;
+              font-family: Lobster, sans-serif;
+              line-height: 30px;
+              text-align: center;
+              color: #db0100;
+              transform: rotate(-7deg);
+              left: -100px;
+              margin: 0;
+            }
+
+            .prize-text {
+              font-size: 21px;
+              font-family: Proxima Nova, sans-serif;
+              text-transform: uppercase;
+              text-align: center;
+              font-weight: 800;
+              width: 150px;
+              margin: 0 auto;
+              display: block;
+              padding: 170px 0 0 0;
+            }
+          }
+        }
+      }
+    }
+
+    .atb-section-eight {
+      background-image: url(../src/img/blue-bg.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      &__wrapper {
+        width: 100%;
+        margin: auto;
+        display: block;
+
+        &_block-with-phone {
+          display: inline-block;
+          float: left;
+          position: relative;
+          width: 40%;
+          height: 500px;
+
+          .atb-phone {
+            position: absolute;
+
+            .atb-phone-img {
+              position: absolute;
+              top: -83px;
+              height: 726px;
+            }
+          }
+        }
+
+        &_section-with-comments {
+          width: 60%;
+          float: left;
+
+          .atb-comments-text-heading {
+            font-size: 24px;
+            font-weight: 700;
+            padding: 20px 90px 0 0;
+            color: #fff;
+            margin: 0;
+          }
+
+          .atb-comments-text-descr {
+            font-family: Proxima Nova, sans-serif;
+            font-size: 30px;
+            font-weight: 200;
+            padding: 0 0 40px 0;
+            color: #fff;
+            margin: 0;
+          }
+
+          .atb-comments-image{
+            display: none;
+          }
+
+          .atb-comments-text-small {
+
+            font-family: Proxima Nova, sans-serif;
+            font-size: 26px;
+            font-weight: 200;
+            padding: 20px 0 40px 0;
+            color: #fff;
+            margin: 0;
+          }
+        }
+      }
+    }
+
+    .atb-section-nine {
+      &__wrapper {
+        margin: 50px auto;
+        height: 100%;
+
+        &:before {
+          display: none;
+        }
+
+        .atb-media {
+          display: block;
+          margin: 0 auto;
+        }
+      }
+    }
+
+    .atb-section-ten {
+      background-image: url(../src/img/blue-bg.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      &__wrapper {
+        width: 100%;
+        margin: auto;
+        display: block;
+        height: 1000px;
+
+        .atb-facebook {
+          background-image: url(../src/img/atb-fb.png);
+          width: 350px;
+          height: 350px;
+          position: absolute;
+          display: block;
+          background-size: cover;
+          z-index: 2;
+          top: 770px;
+          left: 0px;
+
+          .facebook-text {
+            font-size: 20px;
+            font-family: Proxima Nova, sans-serif;
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: 300;
+            width: 250px;
+            margin: 0 auto;
+            display: block;
+            padding: 113px 0 0 0;
+          }
+        }
+
+        .atb-mentions {
+
+          background-image: url(../src/img/atb-ellipse.png);
+          width: 220px;
+          height: 220px;
+          position: absolute;
+          display: block;
+          background-size: cover;
+          z-index: 1;
+          left: 207px;
+          top: 603px;
+          .mentions-text {
+            font-size: 18px;
+            font-family: Proxima Nova, sans-serif;
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: 200;
+            width: 150px;
+            margin: 0 auto;
+            display: block;
+            padding: 34px 0 0 0;
+          }
+          .mentions-text-small {
+            font-size: 12px;
+            font-family: Proxima Nova, sans-serif;
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: 200;
+            margin: 0 auto;
+            display: block;
+            padding: 2px 0 0 0;
+          }
+        }
+
+        .atb-vk {
+          background-image: url(../src/img/atb-fb.png);
+          width: 300px;
+          height: 300px;
+          position: absolute;
+          display: block;
+          background-size: cover;
+          z-index: 2;
+          top: 725px;
+          left: 355px;
+
+          .vk-text {
+            font-size: 20px;
+            font-family: Proxima Nova, sans-serif;
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: 300;
+            width: 250px;
+            margin: 0 auto;
+            display: block;
+            padding: 113px 0 0 0;
+          }
+        }
+
+        .atb-uploads {
+          background-image: url(../src/img/atb-ellipse.png);
+          width: 300px;
+          height: 300px;
+          position: absolute;
+          display: block;
+          background-size: cover;
+          z-index: 1;
+          left: 469px;
+          top: 453px;
+
+          .uploads-text {
+            font-size: 20px;
+            font-family: Proxima Nova, sans-serif;
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: 300;
+            width: 215px;
+            line-height: 18px;
+            margin: 0 auto;
+            display: block;
+            padding: 70px 0 0 0;
+          }
+        }
+
+        &_block-with-phone {
+          display: inline-block;
+          float: left;
+          position: relative;
+          width: 40%;
+          height: 500px;
+
+          .atb-phone {
+            position: absolute;
+
+            .atb-phone-img {
+              position: absolute;
+              top: -83px;
+              height: 726px;
+            }
+          }
+        }
+
+        &_section-with-comments {
+          width: 50%;
+          padding: 0 0 0 40px;
+          float: left;
+
+          .atb-final-results-text-heading {
+            font-size: 35px;
+            font-weight: 700;
+            padding: 50px 90px 0 0;
+            color: #fff;
+            margin: 0;
+          }
+
+          .atb-final-results-text-descr {
+            font-family: Proxima Nova, sans-serif;
+            font-size: 25px;
+            font-weight: 200;
+            padding: 0 0 40px 0;
+            color: #fff;
+            margin: 0;
+            width: 90%;
+          }
+        }
+      }
+    }
+
+    .atb-footer {
+      &__wrapper {
+        padding: 100px 0 30px 0;
+        &_love-emoji {
+          width: 90px;
+          height: 90px;
+          background-image: url(../src/img/atb-emojy-love.png);
+          background-size: cover;
+          display: block;
+          margin: auto;
+          transform: rotate(-14deg);
+        }
+
+        &_descr {
+          display: block;
+          margin: auto;
+          text-align: center;
+          font-size: 20px;
+          font-family: Proxima Nova, sans-serif;
+          padding: 40px 0 40px 0;
+          line-height: 24px;
+
+          .atb-underline {
+            text-decoration: underline;
+          }
+        }
+
+        .send-button {
+          padding: 40px 196px;
+          display: block;
+          margin: auto;
+          border: none;
+          background: #035a9f;
+          color: #fff;
+          font-size: 36px;
+          font-family: Arial Black, sans-serif;
+          box-shadow: 0px 8px 14px 0px #b1b1b1;
+          cursor: pointer;
+          outline: none;
+          transition: .4s;
+          &:hover {
+            background: #0379c3;
+            transition: .4s;
+          }
+        }
+      }
+      .atb-copyright {
+        display: block;
+        margin: auto;
+        text-align: center;
+        font-size: 14px;
+        font-family: Proxima Nova, sans-serif;
+        padding: 20px 0 20px 0;
+        line-height: 24px;
+        color: #fff;
+        background-color: #c4c4c4;
+      }
+    }
+
+  }
